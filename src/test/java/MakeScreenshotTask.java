@@ -1,32 +1,61 @@
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
-public class GoogleSearchTestOnChrome {
+public class MakeScreenshotTask {
     private WebDriver driver;
 
     @BeforeTest
-    public void setUp() {
+    @Parameters("browser")
+    public void setUp(String browser) throws Exception {
+        if(browser.equalsIgnoreCase("chrome")){
         System.setProperty("webdriver.chrome.driver",
                 "./src/test/resources/drivers/chromedriver.exe");
+        driver = new ChromeDriver();}
 
-        driver = new ChromeDriver();
+        else if(browser.equalsIgnoreCase("ie")){
+        System.setProperty( "webdriver.ie.driver",
+                "src/test/resources/drivers/IEDriverServer.exe" );
+
+        DesiredCapabilities capabilities = new DesiredCapabilities().internetExplorer();
+            capabilities.setCapability(
+                InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS,
+                true );
+            capabilities.setCapability( InternetExplorerDriver.IGNORE_ZOOM_SETTING, true );
+        driver = new InternetExplorerDriver( capabilities );
+    }
+    else if(browser.equalsIgnoreCase("firefox")){
+            System.setProperty( "webdriver.gecko.driver",
+                    "./src/test/resources/drivers/geckodriver.exe" );
+
+            driver = new FirefoxDriver();
+        }else{
+            //If no browser passed throw exception
+            throw new Exception("Browser is not correct");
+        }
+
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();
-        driver.get("https://staging-web1.corp.globoforce.com/microsites/t/home?client=testclientclone2&setCAG=true");
+
     }
 
     @Test
     public void testGoogleSearch() throws Exception {
-
+        driver.get("https://staging-web1.corp.globoforce.com/microsites/t/home?client=testclientclone2&setCAG=true");
         WebDriverWait wait = new WebDriverWait(driver, 5);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("username")));
 

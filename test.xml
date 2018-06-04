@@ -2,7 +2,7 @@
 
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="TestSuite" thread-count="2" parallel="tests">
+<suite name="TestSuite" thread-count="3" parallel="tests">
 
     <test name="ChromeTest">
         <parameter name="browser" value="Chrome"/>
@@ -27,5 +27,7 @@
             </class>
         </classes>
     </test>
+
+
 
 </suite>

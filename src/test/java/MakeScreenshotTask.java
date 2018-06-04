@@ -1,16 +1,13 @@
-import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.io.FileHandler;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Parameters;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import java.io.File;
 import java.io.IOException;
@@ -21,29 +18,28 @@ public class MakeScreenshotTask {
 
     @BeforeTest
     @Parameters("browser")
-    public void setUp(String browser) throws Exception {
-        if(browser.equalsIgnoreCase("chrome")){
-        System.setProperty("webdriver.chrome.driver",
-                "./src/test/resources/drivers/chromedriver.exe");
-        driver = new ChromeDriver();}
 
-        else if(browser.equalsIgnoreCase("ie")){
-        System.setProperty( "webdriver.ie.driver",
-                "src/test/resources/drivers/IEDriverServer.exe" );
+    public void setUp(@Optional("IE") String browser) throws Exception {
+        if (browser.equalsIgnoreCase("chrome")) {
+            System.setProperty("webdriver.chrome.driver",
+                    "./src/test/resources/drivers/chromedriver.exe");
+            driver = new ChromeDriver();
+        } else if (browser.equalsIgnoreCase("ie")) {
+            System.setProperty("webdriver.ie.driver",
+                    "src/test/resources/drivers/IEDriverServer.exe");
 
-        DesiredCapabilities capabilities = new DesiredCapabilities().internetExplorer();
+            DesiredCapabilities capabilities = new DesiredCapabilities().internetExplorer();
             capabilities.setCapability(
-                InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS,
-                true );
-            capabilities.setCapability( InternetExplorerDriver.IGNORE_ZOOM_SETTING, true );
-        driver = new InternetExplorerDriver( capabilities );
-    }
-    else if(browser.equalsIgnoreCase("firefox")){
-            System.setProperty( "webdriver.gecko.driver",
-                    "./src/test/resources/drivers/geckodriver.exe" );
+                    InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS,
+                    true);
+            capabilities.setCapability(InternetExplorerDriver.IGNORE_ZOOM_SETTING, true);
+            driver = new InternetExplorerDriver(capabilities);
+        } else if (browser.equalsIgnoreCase("firefox")) {
+            System.setProperty("webdriver.gecko.driver",
+                    "./src/test/resources/drivers/geckodriver.exe");
 
             driver = new FirefoxDriver();
-        }else{
+        } else {
             //If no browser passed throw exception
             throw new Exception("Browser is not correct");
         }
@@ -81,14 +77,14 @@ public class MakeScreenshotTask {
         File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         try {
 
-            FileUtils.copyFile(src, new File(".\\src\\test\\screenshots\\screenshot" + System.currentTimeMillis() + ".png"));
+            FileHandler.copy(src, new File(".\\src\\test\\screenshots\\screenshot" + System.currentTimeMillis() + ".png"));
         } catch (IOException e) {
             System.out.println(e.getMessage());
 
 
         }
-        String homePage = driver.getCurrentUrl().substring(0,65);
-        Assert.assertEquals(homePage,"https://staging-web1.corp.globoforce.com/microsites/t/home?client");
+        String homePage = driver.getCurrentUrl().substring(0, 65);
+        Assert.assertEquals(homePage, "https://staging-web1.corp.globoforce.com/microsites/t/home?client");
     }
 
 

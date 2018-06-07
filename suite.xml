@@ -2,7 +2,16 @@
 
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="TestSuite" thread-count="3" parallel="tests">
+<suite name="TestSuite" thread-count="5" parallel="tests">
+
+
+    <test name="IETest">
+        <parameter name="browser" value="IE"/>
+        <classes>
+            <class name="MakeScreenshotTask">
+            </class>
+        </classes>
+    </test>
 
     <test name="ChromeTest">
         <parameter name="browser" value="Chrome"/>
@@ -19,15 +28,5 @@
             </class>
         </classes>
     </test>
-
-    <test name="IETest">
-        <parameter name="browser" value="IE"/>
-        <classes>
-            <class name="MakeScreenshotTask">
-            </class>
-        </classes>
-    </test>
-
-
 
 </suite>

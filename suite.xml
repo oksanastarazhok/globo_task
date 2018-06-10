@@ -5,16 +5,16 @@
 <suite name="TestSuite" thread-count="5" parallel="false">
 
 
-    <test name="IETest">
-        <parameter name="browser" value="IE"/>
+     <test name="ChromeTest">
+        <parameter name="browser" value="Chrome"/>
         <classes>
             <class name="MakeScreenshotTask">
             </class>
         </classes>
     </test>
 
-    <test name="ChromeTest">
-        <parameter name="browser" value="Chrome"/>
+    <test name="IETest">
+        <parameter name="browser" value="IE"/>
         <classes>
             <class name="MakeScreenshotTask">
             </class>

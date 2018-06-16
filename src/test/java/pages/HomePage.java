@@ -5,14 +5,11 @@ import org.openqa.selenium.io.FileHandler;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 public class HomePage extends BasePage {
-    @FindBy(id = "giveAward-button")
-    public WebElement recognizeButton;
 
     @FindBy(xpath = "//*[@id=\"programLogo\"]")
     public WebElement logInCheck;
@@ -45,7 +42,7 @@ public class HomePage extends BasePage {
             System.out.println("Aggreement has been accepted earlier.");
         }
 
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         try {
 

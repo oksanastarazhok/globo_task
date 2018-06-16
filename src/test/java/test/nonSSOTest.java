@@ -10,7 +10,7 @@ import org.testng.annotations.*;
 import pages.HomePage;
 import pages.LoginPage;
 
-public class GloboTest {
+public class nonSSOTest {
     private WebDriver driver;
 
     @BeforeTest(description = "Three supported browsers are define in xml file. Default browser is firefox.")
@@ -63,11 +63,10 @@ public class GloboTest {
 
 
 
-
-    @AfterTest
-    public void tearDown() {
-
-        driver.quit();
-    }
+//    @AfterTest
+//    public void tearDown() {
+//
+//        driver.quit();
+//    }
 
 }

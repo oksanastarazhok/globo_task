@@ -1,10 +1,13 @@
 package pages;
 
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 
 public class TestUtilsPage extends BasePage {
@@ -56,16 +59,21 @@ public class TestUtilsPage extends BasePage {
             Thread.sleep(5000);
         } catch (InterruptedException ie) {
         }
+//li id="ui-id-7" class="ui-menu-item ui-state-focus">
+        WebDriverWait wait = new WebDriverWait(driver, 5);
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//li[@id=\"ui-id-7\"]")));
 
         clientField.clear();
         clientField.sendKeys("staff(33)");
         clientField.click();
-       serverField.clear();
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//li[@id=\"ui-id-7\"]")));
+        serverField.clear();
         serverField.sendKeys("staging-web1.corp.globoforce.com");
         serverField.click();
-   dbField.clear();
-   dbField.sendKeys("GT12");
-   dbField.click();
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//li[@id=\"ui-id-7\"]")));
+        dbField.clear();
+        dbField.sendKeys("GT12");
+        dbField.click();
 
         firstnameField.clear();
         lastnameField.clear();

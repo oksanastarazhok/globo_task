@@ -14,19 +14,14 @@ public class HomePage extends BasePage {
     @FindBy(xpath = "//*[@id=\"programLogo\"]")
     public WebElement logInCheck;
 
+    @FindBy(xpath = "//*[@id=\"login-ui-app\"]/legal-component/div/button")
+    public WebElement legalBtn;
+
     public HomePage(WebDriver driver) {
         super(driver);
     }
 
-    public void waiterOfElementLoaded() {
-        WebDriverWait waitForOne = new WebDriverWait(driver, 10);
-        waitForOne.until(ExpectedConditions.visibilityOf(logInCheck));
-    }
 
-    public boolean loginIsCorrect() {
-        return logInCheck.isDisplayed();
-
-    }
 
     public void makeScr() {
         Boolean title = driver.getTitle().contains("Welcome");
@@ -35,12 +30,14 @@ public class HomePage extends BasePage {
         if (!title) {
 
             WebDriverWait wait = new WebDriverWait(driver, 5);
-            wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"login-ui-app\"]/legal-component/div/button")));
-            WebElement legalBtn = driver.findElement(By.xpath("//*[@id=\"login-ui-app\"]/legal-component/div/button"));
+            wait.until(ExpectedConditions.visibilityOf(legalBtn));
             legalBtn.click();
         } else {
             System.out.println("Aggreement has been accepted earlier.");
         }
+
+        WebDriverWait waitForOne = new WebDriverWait(driver, 10);
+        waitForOne.until(ExpectedConditions.visibilityOf(logInCheck));
 
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
@@ -52,4 +49,11 @@ public class HomePage extends BasePage {
 
         }
     }
+
+    public boolean loginIsCorrect() {
+        return logInCheck.isDisplayed();
+
+    }
+
+
 }

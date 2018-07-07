@@ -54,19 +54,17 @@ public class nonSSOTest {
         LoginPage loginPage = new LoginPage(driver);
         loginPage.login();
         HomePage homePage = new HomePage(driver);
-        homePage.waiterOfElementLoaded();
+        homePage.makeScr();
         Assert.assertTrue(homePage.loginIsCorrect(), "Looks you are NOT logged in correctly!");
         System.out.println("Login was completed correctly.");
-        homePage.makeScr();
 
     }
 
 
+    @AfterTest
+    public void tearDown() {
 
-//    @AfterTest
-//    public void tearDown() {
-//
-//        driver.quit();
-//    }
+        driver.quit();
+    }
 
 }

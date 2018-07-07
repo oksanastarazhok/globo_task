@@ -57,7 +57,6 @@ public class SSOTest {
             testUtilsPage.loginSSO();
 
             HomePage homePage = new HomePage(driver);
-            homePage.waiterOfElementLoaded();
             Assert.assertTrue(homePage.loginIsCorrect(), "Looks you are NOT logged in correctly!");
             System.out.println("Login was completed correctly.");
             homePage.makeScr();

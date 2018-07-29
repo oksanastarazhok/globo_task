@@ -9,7 +9,9 @@ import org.testng.Assert;
 import org.testng.annotations.*;
 import pages.HomePage;
 import pages.LoginPage;
+import utils.CustomListener;
 
+@Listeners(CustomListener.class)
 public class nonSSOTest {
     private WebDriver driver;
 

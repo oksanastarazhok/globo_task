@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbe4f5a1-add0-47b2-ae4f-6e3927bcadc7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/SSOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/MakeScreenshotTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/nonSSOTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/suite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/suite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="suite.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="suite.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/suite.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -53,17 +51,17 @@
       <file leaf-file-name="MakeScreenshotTask.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/MakeScreenshotTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
+            <state relative-caret-position="412">
               <caret line="85" column="82" selection-start-line="85" selection-start-column="43" selection-end-line="85" selection-end-column="82" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MakeScreenshotTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MakeScreenshotTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/MakeScreenshotTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="871">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="1020">
+              <caret line="60" column="29" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -494,13 +492,17 @@
       <option name="project" value="LOCAL" />
       <updated>1530971908980</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="removed 1 test class">
+      <created>1532966166504</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1532966166504</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_Oksana_Starazhok_globo_task_suite_xml - 2018.07.03 at 15h 46m 08s.xml">
-      <configuration name="C:/Users/Oksana_Starazhok/globo_task/suite.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Users_Oksana_Starazhok_globo_task_suite_xml - 2018.07.03 at 15h 47m 14s.xml">
       <configuration name="C:/Users/Oksana_Starazhok/globo_task/suite.xml" configurationId="TestNG" />
     </history-entry>
@@ -528,9 +530,13 @@
     <history-entry file="C__Users_Oksana_Starazhok_globo_task_suite_xml - 2018.07.28 at 18h 49m 05s.xml">
       <configuration name="C:/Users/Oksana_Starazhok/globo_task/suite.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="C__Users_Oksana_Starazhok_globo_task_suite_xml - 2018.07.30 at 18h 53m 52s.xml">
+      <configuration name="C:/Users/Oksana_Starazhok/globo_task/suite.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1924" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -540,7 +546,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.32897604" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.32897604" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3299435" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
@@ -622,7 +628,8 @@
     <MESSAGE value="fixed some minor issues" />
     <MESSAGE value="changed gecko driver" />
     <MESSAGE value="fixed non-sso test" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed non-sso test" />
+    <MESSAGE value="removed 1 test class" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed 1 test class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -637,9 +644,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.0.1/selenium-remote-driver-3.0.1.jar!/org/openqa/selenium/remote/RemoteWebDriver.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.0.1/selenium-remote-driver-3.0.1.jar!/org/openqa/selenium/remote/ErrorHandler.class" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa18860.37190/FirefoxTest.java" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa18860.237/FirefoxTest.java" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa18064.17367/FirefoxTest.java" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa18064.17622/FirefoxTest.java" />
@@ -818,6 +822,32 @@
     <entry file="file://$USER_HOME$/Desktop/Useful docs/Selenium WebDriverHometask/src/test/java/business_objects/UserFactory.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/nonSSOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="50" column="2" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/screenshots/screenshot1532965946826.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/screenshots/screenshot1532965946924.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/screenshots/screenshot1532965993239.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suite.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -835,37 +865,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/nonSSOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="50" column="2" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MakeScreenshotTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
+        <state relative-caret-position="412">
           <caret line="85" column="82" selection-start-line="85" selection-start-column="43" selection-end-line="85" selection-end-column="82" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/MakeScreenshotTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="871">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="1020">
+          <caret line="60" column="29" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/suite.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>

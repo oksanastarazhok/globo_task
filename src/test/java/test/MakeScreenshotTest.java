@@ -14,10 +14,11 @@ import pages.LoginPage;
 import pages.TestUtilsPage;
 import utils.CustomListener;
 import utils.ScreenshotUtils;
+import utils.WebDriverSingletone;
 
 @Listeners(CustomListener.class)
 public class MakeScreenshotTest {
-    private WebDriver driver;
+    WebDriver driver = WebDriverSingletone.getWebDriverInstance();
     private Logger logger = Logger.getLogger(MakeScreenshotTest.class);
 
 

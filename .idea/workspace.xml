@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cbe4f5a1-add0-47b2-ae4f-6e3927bcadc7" name="Default" comment="added screenshots for failed tests">
+    <list default="true" id="cbe4f5a1-add0-47b2-ae4f-6e3927bcadc7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/WebDriverSingletone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/log4j.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MakeScreenshotTask.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/MakeScreenshotTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/MakeScreenshotTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/suite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/suite.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="suite.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="suite.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/suite.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+            <state relative-caret-position="306">
+              <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -47,15 +49,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MakeScreenshotTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MakeScreenshotTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/MakeScreenshotTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+            <state relative-caret-position="425">
+              <caret line="47" column="68" lean-forward="true" selection-start-line="47" selection-start-column="68" selection-end-line="47" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebDriverSingletone.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/utils/WebDriverSingletone.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GloboTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/Useful docs/Selenium WebDriverHometask/src/test/java/tests/GloboTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-612" />
           </provider>
         </entry>
       </file>
@@ -86,7 +107,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="pageObject_task" />
+        <entry key="$PROJECT_DIR$" value="log4j_task" />
       </map>
     </option>
     <favorite-branches>
@@ -126,8 +147,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/utils/CustomListener.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/SSOTest.java" />
-        <option value="$PROJECT_DIR$/suite.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/utils/WebDriverSingletone.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/MakeScreenshotTest.java" />
+        <option value="$PROJECT_DIR$/suite.xml" />
       </list>
     </option>
   </component>
@@ -210,6 +232,14 @@
               <item name="globo_task" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="globo_task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="globo_task" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -226,6 +256,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propDebugger" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Oksana_Starazhok\globo_task\src\test\resources" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -238,7 +273,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.MakeScreenshotTest">
+  <component name="RunManager" selected="TestNG.C:/Users/Oksana_Starazhok/globo_task/suite.xml">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -427,11 +462,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Oksana_Starazhok/globo_task/suite.xml" />
         <item itemvalue="TestNG.MakeScreenshotTest" />
         <item itemvalue="TestNG.MakeScreenshotTest.loginToSite" />
         <item itemvalue="TestNG.SSOTest" />
         <item itemvalue="TestNG.GoogleSearchTestOnFireFox" />
-        <item itemvalue="TestNG.C:/Users/Oksana_Starazhok/globo_task/suite.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -523,22 +558,17 @@
       <option name="project" value="LOCAL" />
       <updated>1532896239558</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="moved log4j to resources folder">
+      <created>1532987498719</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1532987498719</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_Oksana_Starazhok_globo_task_suite_xml - 2018.07.30 at 18h 09m 31s.xml">
-      <configuration name="C:/Users/Oksana_Starazhok/globo_task/suite.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="nonSSOTest - 2018.07.30 at 18h 10m 12s.xml">
-      <configuration name="nonSSOTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="nonSSOTest - 2018.07.30 at 18h 15m 35s.xml">
-      <configuration name="nonSSOTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SSOTest - 2018.07.30 at 18h 22m 15s.xml">
-      <configuration name="SSOTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="SSOTest - 2018.07.30 at 18h 22m 57s.xml">
       <configuration name="SSOTest" configurationId="TestNG" />
     </history-entry>
@@ -556,6 +586,18 @@
     </history-entry>
     <history-entry file="MakeScreenshotTest - 2018.07.31 at 00h 04m 07s.xml">
       <configuration name="MakeScreenshotTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MakeScreenshotTest - 2018.07.31 at 00h 49m 56s.xml">
+      <configuration name="MakeScreenshotTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MakeScreenshotTest - 2018.07.31 at 01h 01m 36s.xml">
+      <configuration name="MakeScreenshotTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MakeScreenshotTest - 2018.07.31 at 01h 10m 32s.xml">
+      <configuration name="MakeScreenshotTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Oksana_Starazhok_globo_task_suite_xml - 2018.07.31 at 01h 14m 49s.xml">
+      <configuration name="C:/Users/Oksana_Starazhok/globo_task/suite.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -653,7 +695,8 @@
     <MESSAGE value="fixed non-sso test" />
     <MESSAGE value="added CustomListener" />
     <MESSAGE value="added screenshots for failed tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="added screenshots for failed tests" />
+    <MESSAGE value="moved log4j to resources folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="moved log4j to resources folder" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -668,8 +711,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/screenshots/screenshot1528098784558.png" />
-    <entry file="file://$PROJECT_DIR$/src/test/screenshots/screenshot1528098955916.png" />
     <entry file="file://$PROJECT_DIR$/src/test/java/GoogleSearchTestOnIE.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/GoogleSearchTestOnFireFox.java" />
     <entry file="file://$PROJECT_DIR$/src/test/screenshots/screenshot1528107292727.png" />
@@ -829,18 +870,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/screenshots/screenshot1532963341250.png" />
     <entry file="file://$PROJECT_DIR$/src/test/screenshots/screenshot1532963345947.png" />
     <entry file="file://$PROJECT_DIR$/src/test/screenshots/screenshot1532963410038.png" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/MakeScreenshotTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="85" column="82" selection-start-line="85" selection-start-column="43" selection-end-line="85" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Useful docs/Selenium WebDriverHometask/src/test/java/tests/GloboTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-918" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -855,13 +884,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="70" selection-start-line="70" selection-end-line="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/suite.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -892,13 +914,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/MakeScreenshotTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/MakeScreenshotTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        <state relative-caret-position="155">
+          <caret line="85" column="82" selection-start-line="85" selection-start-column="43" selection-end-line="85" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Useful docs/Selenium WebDriverHometask/src/test/java/tests/WebDriverSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="22" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="22" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Useful docs/Selenium WebDriverHometask/src/test/java/tests/GloboTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-612" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utils/WebDriverSingletone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/MakeScreenshotTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="47" column="68" lean-forward="true" selection-start-line="47" selection-start-column="68" selection-end-line="47" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suite.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
         </state>
       </provider>
     </entry>

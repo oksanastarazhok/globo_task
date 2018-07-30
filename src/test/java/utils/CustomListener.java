@@ -7,7 +7,7 @@ import org.testng.ITestResult;
 
     public class CustomListener implements ITestListener {
 
-        private Logger logger = Logger.getLogger(getClass());
+        private Logger logger = Logger.getLogger(CustomListener.class);
 
         public void onTestStart(ITestResult result) {
             logger.info("Test method '" + result.getName()+ "' STARTED");

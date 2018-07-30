@@ -9,6 +9,9 @@ import org.testng.ITestResult;
 import java.io.File;
 import java.io.IOException;
 
+/**
+ * Take screenshot if test fails
+ */
 public class ScreenshotUtils {
     public static void captureScreenshot(WebDriver driver, ITestResult result) {
         if (!result.isSuccess()) {

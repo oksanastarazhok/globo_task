@@ -8,10 +8,11 @@ import org.openqa.selenium.ie.InternetExplorerOptions;
 import org.testng.Assert;
 import org.testng.annotations.*;
 import pages.HomePage;
+import pages.LoginPage;
 import pages.TestUtilsPage;
 
 
-public class SSOTest {
+public class MakeScreenshotTest {
         private WebDriver driver;
 
         @BeforeTest(description = "Three supported browsers are define in xml file. Default browser is firefox.")
@@ -50,7 +51,7 @@ public class SSOTest {
         }
 
         @Test(description = "Log in to non-sso test client")
-        public void loginToSite() {
+        public void loginSSO() {
             driver.get("https://dubtest01.corp.globoforce.com/testutils/LoginListServlet");
             TestUtilsPage testUtilsPage = new TestUtilsPage(driver);
 
@@ -62,6 +63,18 @@ public class SSOTest {
             homePage.makeScr();
 
         }
+
+    @Test(description = "Log in to non-sso test client")
+    public void loginNonSSO() {
+        driver.get("https://staging-web1.corp.globoforce.com/microsites/t/home?client=testclientclone2&setCAG=true");
+        LoginPage loginPage = new LoginPage(driver);
+        loginPage.login();
+        HomePage homePage = new HomePage(driver);
+        homePage.makeScr();
+        Assert.assertTrue(homePage.loginIsCorrect(), "Looks you are NOT logged in correctly!");
+        System.out.println("Login was completed correctly.");
+
+    }
 
 
 

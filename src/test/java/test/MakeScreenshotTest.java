@@ -20,6 +20,7 @@ public class MakeScreenshotTest {
     private WebDriver driver;
     private Logger logger = Logger.getLogger(MakeScreenshotTest.class);
 
+
     @BeforeTest(description = "Three supported browsers are define in xml file. Default browser is firefox.")
     @Parameters("browser")
 

@@ -1,5 +1,7 @@
 package test;
 
+import business_objects.User;
+import business_objects.UserFactory;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -19,8 +21,8 @@ import utils.WebDriverSingletone;
 @Listeners(CustomListener.class)
 public class MakeScreenshotTest {
     WebDriver driver = WebDriverSingletone.getWebDriverInstance();
+   // User user = UserFactory.createUserFromLogin("67366T");
     private Logger logger = Logger.getLogger(MakeScreenshotTest.class);
-
 
     @BeforeTest(description = "Three supported browsers are define in xml file. Default browser is firefox.")
     @Parameters("browser")
@@ -62,7 +64,7 @@ public class MakeScreenshotTest {
     public void loginToNonSSO() {
         driver.get("https://staging-web1.corp.globoforce.com/microsites/t/home?client=testclientclone2&setCAG=true");
         LoginPage loginPage = new LoginPage(driver);
-        loginPage.login();
+        loginPage.login(new User());
         HomePage homePage = new HomePage(driver);
         homePage.makeScr();
         Assert.assertTrue(homePage.loginIsCorrect(), "Looks you are NOT logged in correctly!");

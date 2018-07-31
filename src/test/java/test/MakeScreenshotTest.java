@@ -71,7 +71,7 @@ public class MakeScreenshotTest {
     }
 
 
-    @Test(description = "Log in to non-sso test client")
+    @Test(description = "Log in to sso test client")
     public void loginToSSO() {
         driver.get("https://dubtest01.corp.globoforce.com/testutils/LoginListServlet");
         TestUtilsPage testUtilsPage = new TestUtilsPage(driver);

@@ -21,7 +21,7 @@ import utils.WebDriverSingletone;
 @Listeners(CustomListener.class)
 public class MakeScreenshotTest {
     WebDriver driver = WebDriverSingletone.getWebDriverInstance();
-   // User user = UserFactory.createUserFromLogin("67366T");
+    User user = UserFactory.createUserFromLogin("67366T");
     private Logger logger = Logger.getLogger(MakeScreenshotTest.class);
 
     @BeforeTest(description = "Three supported browsers are define in xml file. Default browser is firefox.")

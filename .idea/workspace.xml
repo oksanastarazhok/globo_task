@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cbe4f5a1-add0-47b2-ae4f-6e3927bcadc7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/MakeScreenshotTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/MakeScreenshotTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,53 +19,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="suite.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/suite.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestUtilsPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/TestUtilsPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MakeScreenshotTask.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/MakeScreenshotTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="85" column="82" selection-start-line="85" selection-start-column="43" selection-end-line="85" selection-end-column="82" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MakeScreenshotTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/MakeScreenshotTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="60" column="29" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="29" />
+            <state relative-caret-position="85">
+              <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/business_objects/UserFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="29" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/business_objects/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -81,6 +73,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>legalBtn</find>
+      <find>CustomDriverDecorator</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -113,18 +106,26 @@
         <option value="$PROJECT_DIR$/src/test/java/GoogleSearchTestOnFireFox.java" />
         <option value="$PROJECT_DIR$/test.xml" />
         <option value="$PROJECT_DIR$/src/test/java/MakeScreenshotTask.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/pages/BasePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/block/LoginElements.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/GloboTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/TestUtilsPage.kt" />
         <option value="$PROJECT_DIR$/src/test/java/scenarious/SSOTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/TestUtilsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/log4j.xml" />
         <option value="$PROJECT_DIR$/src/test/java/test/nonSSOTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/utils/ScreenshotUtils.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/utils/CustomListener.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/SSOTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/utils/WebDriverSingletone.java" />
         <option value="$PROJECT_DIR$/suite.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/utils/CustomDriverDecorator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/TestUtilsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/business_objects/User.java" />
+        <option value="$PROJECT_DIR$/src/test/java/business_objects/UserFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/MakeScreenshotTest.java" />
       </list>
     </option>
   </component>
@@ -156,9 +157,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1920" />
-    <option name="height" value="1040" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="1924" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -199,7 +201,31 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="business_objects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="globo_task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="globo_task" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="globo_task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="globo_task" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="globo_task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="globo_task" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -209,11 +235,16 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/web_service_task" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Oksana_Starazhok\globo_task\src\test\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -229,7 +260,9 @@
   </component>
   <component name="RunManager" selected="TestNG.C:/Users/Oksana_Starazhok/globo_task/suite.xml">
     <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="WIDTH" value="0" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -249,30 +282,6 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
-    </configuration>
-    <configuration name="GoogleSearchTask [test]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="test" />
-              </list>
-            </option>
-            <option name="pomFileName" value="pom.xml" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
     </configuration>
     <configuration name="C:/Users/Oksana_Starazhok/globo_task/suite.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="GoogleSearchTask" />
@@ -297,13 +306,13 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="MakeScreenshotTask" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GoogleSearchTestOnFireFox" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="GoogleSearchTask" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MakeScreenshotTask" />
+      <option name="MAIN_CLASS_NAME" value="GoogleSearchTestOnFireFox" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -320,16 +329,80 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="MakeScreenshotTask.makeScr" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MakeScreenshotTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="GoogleSearchTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MakeScreenshotTask" />
-      <option name="METHOD_NAME" value="makeScr" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MakeScreenshotTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="MakeScreenshotTest.loginToSite" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="GoogleSearchTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MakeScreenshotTest" />
+      <option name="METHOD_NAME" value="loginToSite" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="SSOTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="GoogleSearchTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.SSOTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -365,49 +438,20 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="nonSSOTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="GoogleSearchTask" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.nonSSOTest" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
     <list>
-      <item itemvalue="Maven.GoogleSearchTask [test]" />
-      <item itemvalue="TestNG.MakeScreenshotTask" />
       <item itemvalue="TestNG.C:/Users/Oksana_Starazhok/globo_task/suite.xml" />
-      <item itemvalue="TestNG.MakeScreenshotTask.makeScr" />
-      <item itemvalue="TestNG.nonSSOTest" />
+      <item itemvalue="TestNG.GoogleSearchTestOnFireFox" />
+      <item itemvalue="TestNG.MakeScreenshotTest" />
+      <item itemvalue="TestNG.SSOTest" />
+      <item itemvalue="TestNG.MakeScreenshotTest.loginToSite" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/Oksana_Starazhok/globo_task/suite.xml" />
-        <item itemvalue="TestNG.nonSSOTest" />
-        <item itemvalue="TestNG.MakeScreenshotTask.makeScr" />
-        <item itemvalue="TestNG.MakeScreenshotTask" />
-        <item itemvalue="Maven.GoogleSearchTask [test]" />
+        <item itemvalue="TestNG.MakeScreenshotTest" />
+        <item itemvalue="TestNG.MakeScreenshotTest.loginToSite" />
+        <item itemvalue="TestNG.SSOTest" />
+        <item itemvalue="TestNG.GoogleSearchTestOnFireFox" />
       </list>
     </recent_temporary>
   </component>
@@ -485,107 +529,141 @@
       <option name="project" value="LOCAL" />
       <updated>1529152975158</updated>
     </task>
-    <task id="LOCAL-00010" summary="fixed non-sso test">
-      <created>1530971908980</created>
+    <task id="LOCAL-00010" summary="added CustomListener">
+      <created>1532884010080</created>
       <option name="number" value="00010" />
       <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1530971908980</updated>
+      <updated>1532884010080</updated>
     </task>
-    <task id="LOCAL-00011" summary="removed 1 test class">
-      <created>1532966166504</created>
+    <task id="LOCAL-00011" summary="added screenshots for failed tests">
+      <created>1532896239558</created>
       <option name="number" value="00011" />
       <option name="presentableId" value="LOCAL-00011" />
       <option name="project" value="LOCAL" />
-      <updated>1532966166504</updated>
+      <updated>1532896239558</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="moved log4j to resources folder">
+      <created>1532987498719</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1532987498719</updated>
+    </task>
+    <task id="LOCAL-00013" summary="implemented Singletone">
+      <created>1532989231018</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1532989231018</updated>
+    </task>
+    <task id="LOCAL-00014" summary="implemented Singletone">
+      <created>1532990102978</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1532990102978</updated>
+    </task>
+    <task id="LOCAL-00015" summary="corrected mistakes">
+      <created>1533065082274</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1533065082274</updated>
+    </task>
+    <task id="LOCAL-00016" summary="added business_objects">
+      <created>1533069000962</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1533069000962</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_Oksana_Starazhok_globo_task_suite_xml - 2018.07.03 at 15h 47m 14s.xml">
+    <history-entry file="MakeScreenshotTest - 2018.07.31 at 00h 04m 07s.xml">
+      <configuration name="MakeScreenshotTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MakeScreenshotTest - 2018.07.31 at 00h 49m 56s.xml">
+      <configuration name="MakeScreenshotTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MakeScreenshotTest - 2018.07.31 at 01h 01m 36s.xml">
+      <configuration name="MakeScreenshotTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MakeScreenshotTest - 2018.07.31 at 01h 10m 32s.xml">
+      <configuration name="MakeScreenshotTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Oksana_Starazhok_globo_task_suite_xml - 2018.07.31 at 01h 14m 49s.xml">
       <configuration name="C:/Users/Oksana_Starazhok/globo_task/suite.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Oksana_Starazhok_globo_task_suite_xml - 2018.07.07 at 11h 22m 14s.xml">
+    <history-entry file="C__Users_Oksana_Starazhok_globo_task_suite_xml - 2018.07.31 at 01h 19m 14s.xml">
       <configuration name="C:/Users/Oksana_Starazhok/globo_task/suite.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Oksana_Starazhok_globo_task_suite_xml - 2018.07.07 at 13h 48m 20s.xml">
+    <history-entry file="C__Users_Oksana_Starazhok_globo_task_suite_xml - 2018.07.31 at 01h 30m 40s.xml">
       <configuration name="C:/Users/Oksana_Starazhok/globo_task/suite.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Oksana_Starazhok_globo_task_suite_xml - 2018.07.07 at 15h 42m 39s.xml">
+    <history-entry file="C__Users_Oksana_Starazhok_globo_task_suite_xml - 2018.07.31 at 01h 31m 55s.xml">
       <configuration name="C:/Users/Oksana_Starazhok/globo_task/suite.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Oksana_Starazhok_globo_task_suite_xml - 2018.07.07 at 16h 16m 31s.xml">
+    <history-entry file="C__Users_Oksana_Starazhok_globo_task_suite_xml - 2018.07.31 at 22h 21m 09s.xml">
       <configuration name="C:/Users/Oksana_Starazhok/globo_task/suite.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Oksana_Starazhok_globo_task_suite_xml - 2018.07.07 at 16h 17m 45s.xml">
-      <configuration name="C:/Users/Oksana_Starazhok/globo_task/suite.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Oksana_Starazhok_globo_task_suite_xml - 2018.07.07 at 16h 32m 06s.xml">
-      <configuration name="C:/Users/Oksana_Starazhok/globo_task/suite.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Oksana_Starazhok_globo_task_suite_xml - 2018.07.09 at 15h 48m 45s.xml">
-      <configuration name="C:/Users/Oksana_Starazhok/globo_task/suite.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Oksana_Starazhok_globo_task_suite_xml - 2018.07.28 at 18h 49m 05s.xml">
-      <configuration name="C:/Users/Oksana_Starazhok/globo_task/suite.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Oksana_Starazhok_globo_task_suite_xml - 2018.07.30 at 18h 53m 52s.xml">
+    <history-entry file="C__Users_Oksana_Starazhok_globo_task_suite_xml - 2018.08.01 at 12h 26m 20s.xml">
       <configuration name="C:/Users/Oksana_Starazhok/globo_task/suite.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1924" height="1050" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="1924" height="1047" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32897604" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32896176" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.32897604" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3299435" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.33005464" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32896176" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25268242" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32897604" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32896176" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Designer" order="3" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3299356" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32792208" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32792208" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3917749" />
-      <window_info id="Image Layers" order="6" />
-      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3299435" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.32897604" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="6" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32792208" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3982684" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32897604" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005208" side_tool="true" weight="0.32942432" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49947917" weight="0.32900432" />
-      <window_info anchor="right" id="Maven Projects" order="4" weight="0.32782516" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30383795" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32897604" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25268242" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -628,8 +706,13 @@
     <MESSAGE value="fixed some minor issues" />
     <MESSAGE value="changed gecko driver" />
     <MESSAGE value="fixed non-sso test" />
-    <MESSAGE value="removed 1 test class" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed 1 test class" />
+    <MESSAGE value="added CustomListener" />
+    <MESSAGE value="added screenshots for failed tests" />
+    <MESSAGE value="moved log4j to resources folder" />
+    <MESSAGE value="implemented Singletone" />
+    <MESSAGE value="corrected mistakes" />
+    <MESSAGE value="added business_objects" />
+    <option name="LAST_COMMIT_MESSAGE" value="added business_objects" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -644,43 +727,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa18860.237/FirefoxTest.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa18064.17367/FirefoxTest.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa18064.17622/FirefoxTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/screenshots1527944265406.png" />
-    <entry file="file://$PROJECT_DIR$/src/test/screenshots/screenshot1528097672439.png" />
-    <entry file="file://$PROJECT_DIR$/src/test/screenshots/screenshot1527949911676.png" />
-    <entry file="file://$PROJECT_DIR$/src/test/screenshots/screenshot1528098784558.png" />
-    <entry file="file://$PROJECT_DIR$/src/test/screenshots/screenshot1528098955916.png" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/GoogleSearchTestOnIE.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/GoogleSearchTestOnFireFox.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/screenshots/screenshot1528107292727.png" />
-    <entry file="file://$PROJECT_DIR$/src/test/screenshots/screenshot1528107335614.png" />
-    <entry file="file://$PROJECT_DIR$/src/test/screenshots/screenshot1528107356262.png" />
-    <entry file="file://$PROJECT_DIR$/src/test/screenshots/screenshot1528107449829.png" />
-    <entry file="file://$PROJECT_DIR$/src/test/screenshots/screenshot1528107450433.png" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/jre/lib/rt.jar!/sun/reflect/NativeConstructorAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.1.1/testng-6.1.1.jar!/org/testng/TestNG.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="847" selection-start-line="847" selection-end-line="847" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.1.1/testng-6.1.1.jar!/org/testng/internal/ClassImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="171" selection-start-line="171" selection-end-line="171" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/screenshots/screenshot1528213835832.png" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.1.1/testng-6.1.1.jar!/org/testng/internal/Invoker.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="633">
@@ -689,13 +735,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/block/LoginElements.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/ru/yandex/qatools/htmlelements/htmlelements-java/1.8/htmlelements-java-1.8.jar!/ru/yandex/qatools/htmlelements/loader/decorator/HtmlElementUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="125" selection-start-line="125" selection-end-line="125" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ru/yandex/qatools/htmlelements/htmlelements-java/1.8/htmlelements-java-1.8.jar!/ru/yandex/qatools/htmlelements/loader/decorator/HtmlElementUtils.class" />
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/TestUtilsPage.kt" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar!/org/openqa/selenium/support/ui/Select.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -774,108 +814,225 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/BasePage.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/GloboTest/src/test/java/org/demo/GloboTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/screenshots/screenshot1532963341250.png" />
+    <entry file="file://$PROJECT_DIR$/src/test/screenshots/screenshot1532963345947.png" />
+    <entry file="file://$PROJECT_DIR$/src/test/screenshots/screenshot1532963410038.png" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="255">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/screenshots/screenshot1532963733394.png" />
+    <entry file="file://$PROJECT_DIR$/src/test/screenshots/screenshotloginToSite.png" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/SSOTest.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.1.1/testng-6.1.1.jar!/org/testng/xml/XmlClass.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/screenshots/screenshotloginToNonSSO.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MakeScreenshotTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="85" column="82" selection-start-line="85" selection-start-column="43" selection-end-line="85" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Useful docs/Selenium WebDriverHometask/src/test/java/tests/WebDriverSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="22" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="22" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utils/CustomListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="9" column="69" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utils/WebDriverSingletone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utils/CustomDriverDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#854#855#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+            <element signature="e#975#976#0" expanded="true" />
+            <element signature="e#1002#1003#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utils/ScreenshotUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suite.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/log4j.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/TestUtilsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="30" />
+        <state relative-caret-position="238">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Useful docs/Selenium WebDriverHometask/src/test/java/business_objects/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Useful docs/Selenium WebDriverHometask/src/test/java/business_objects/UserFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/business_objects/UserFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Useful docs/Selenium WebDriverHometask/src/test/java/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#603#604#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="27" column="38" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="38" />
+        <state relative-caret-position="476">
+          <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Useful docs/Selenium WebDriverHometask/src/test/java/tests/GloboTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="19" column="64" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/business_objects/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/Useful docs/Selenium WebDriverHometask/src/test/java/tests/CustomDriverDecorator.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Useful docs/Selenium WebDriverHometask/src/test/java/tests/GloboTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Useful docs/Selenium WebDriverHometask/src/test/java/tests/WebDriverSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Useful docs/Selenium WebDriverHometask/src/test/java/business_objects/User.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Useful docs/Selenium WebDriverHometask/src/test/java/business_objects/UserFactory.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/nonSSOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="50" column="2" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
+        <state relative-caret-position="255">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/screenshots/screenshot1532965946826.png">
+    <entry file="file://$PROJECT_DIR$/src/test/screenshots/screenshotloginToSSO.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/screenshots/screenshot1532965946924.png">
+    <entry file="file://$PROJECT_DIR$/src/test/screenshots/screenshot1533115691454.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/screenshots/screenshot1532965993239.png">
+    <entry file="file://$PROJECT_DIR$/src/test/screenshots/screenshot1533115670653.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/suite.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/test/screenshots/screenshot1533115627457.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/TestUtilsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MakeScreenshotTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="85" column="82" selection-start-line="85" selection-start-column="43" selection-end-line="85" selection-end-column="82" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/test/screenshots/screenshot1533115620582.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/MakeScreenshotTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="60" column="29" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="29" />
+        <state relative-caret-position="85">
+          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

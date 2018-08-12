@@ -3,6 +3,7 @@ package pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import business_objects.User;
 
 public class LoginPage extends BasePage {
 
@@ -22,12 +23,12 @@ public class LoginPage extends BasePage {
         super(driver);
     }
 
-    public void login(){
+    public void login(User user){
         System.out.println("Starting the signIn process.");
         usernameField.clear();
-        usernameField.sendKeys("67366T");
+        usernameField.sendKeys(user.getLOGIN());
         passwordField.clear();
-        passwordField.sendKeys("password1");
+        passwordField.sendKeys(user.getPASSWORD());
         loginButton.click();
 
     }

@@ -58,7 +58,7 @@ public class TestUtilsPage extends BasePage {
             Thread.sleep(5000);
         } catch (InterruptedException ie) {
         }
-//li id="ui-id-7" class="ui-menu-item ui-state-focus">
+
         WebDriverWait wait = new WebDriverWait(driver, 5);
         wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//li[@id=\"ui-id-7\"]")));
 

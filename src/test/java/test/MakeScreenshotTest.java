@@ -18,6 +18,8 @@ import utils.CustomListener;
 import utils.ScreenshotUtils;
 import utils.WebDriverSingletone;
 
+import java.util.concurrent.TimeUnit;
+
 @Listeners(CustomListener.class)
 public class MakeScreenshotTest {
     WebDriver driver = WebDriverSingletone.getWebDriverInstance();
@@ -27,7 +29,7 @@ public class MakeScreenshotTest {
     @BeforeTest(description = "Three supported browsers are define in xml file. Default browser is firefox.")
     @Parameters("browser")
 
-    public void setUp(@Optional("firefox") String browser) throws Exception {
+    public void setUp(@Optional("chrome") String browser) throws Exception {
         if (browser.equalsIgnoreCase( "chrome" )) {
             System.setProperty( "webdriver.chrome.driver",
                     "./src/test/resources/drivers/chromedriver.exe" );
@@ -55,6 +57,7 @@ public class MakeScreenshotTest {
         }
 
         driver.manage().window().maximize();
+        driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
         logger.info( "Browser started" );
 
 

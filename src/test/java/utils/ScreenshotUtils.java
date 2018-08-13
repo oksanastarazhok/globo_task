@@ -17,7 +17,7 @@ public class ScreenshotUtils {
         if (!result.isSuccess()) {
             File srcFile = ((TakesScreenshot) driver).getScreenshotAs( OutputType.FILE);
             try {
-                FileHandler.copy(srcFile, new File(".\\src\\test\\screenshots" + result.getName() + ".png"));
+                FileHandler.copy(srcFile, new File(".\\src\\test\\resources\\screenshots" + result.getName() + ".png"));
             } catch (IOException e) {
                 e.printStackTrace();
             }

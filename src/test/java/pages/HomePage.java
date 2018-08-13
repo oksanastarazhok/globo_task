@@ -43,7 +43,7 @@ public class HomePage extends BasePage {
         File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         try {
 
-            FileHandler.copy(src, new File(".\\src\\test\\screenshots" + System.currentTimeMillis() + ".png"));
+            FileHandler.copy(src, new File(".\\src\\test\\resources\\screenshots" + System.currentTimeMillis() + ".png"));
         } catch (IOException e) {
             System.out.println(e.getMessage());
 
